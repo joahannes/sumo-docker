@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-MAINTAINER Joahannes Costa (joahannes@ic.unicamp.br)
+LABEL maintainer="Joahannes Costa <joahannes@ic.unicamp.br>"
 LABEL Description="Dockerised Simulation of Urban MObility (SUMO)"
 
 ENV SUMO_VERSION 1.18.0
